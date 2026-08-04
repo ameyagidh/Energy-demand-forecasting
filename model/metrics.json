@@ -1,0 +1,23 @@
+{
+  "gradient_boosting": {
+    "mae": 1126.45,
+    "rmse": 1585.34,
+    "mape_pct": 3.969
+  },
+  "naive_persistence_24h": {
+    "mae": 2464.62,
+    "rmse": 3508.52,
+    "mape_pct": 8.573
+  },
+  "grid_operator_forecast": {
+    "mae": 259.62,
+    "rmse": 378.3,
+    "mape_pct": 0.898
+  },
+  "train_rows": 27916,
+  "test_rows": 6980,
+  "test_period": {
+    "start": "2018-03-16 03:00:00+00:00",
+    "end": "2018-12-31 22:00:00+00:00"
+  }
+}
